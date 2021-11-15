@@ -1,15 +1,15 @@
 # C++ Tutorial
 ***
-###Author Keisuke Noji @CVSLab.
-###Tuesday, November, 16, 2021  
+### Author Keisuke Noji @CVSLab.
+### Tuesday, November, 16, 2021  
 ***
-##Processing Flow
+## Processing Flow
 |Function|contents|
 |:------:|:------|
 |generate image|create sample folder<br> create noise image|
 |trimming|input: folder<br> set trimming coordinate<br> Trim and plot graph|
 ***
-##set Params (params.h)
+## set Params (params.h)
 |Functional|default|Contents|
 |:-----:|:-----|:-----|
 |sample_dir|'sample'|sample image generate path|
