@@ -9,8 +9,8 @@ void generate_image();
 void trimming(char** argv);
 
 int main(std::int32_t argc, char **argv) {
-//    generate_image();
-    trimming(argv);
+    generate_image();
+//    trimming(argv);
     return 0;
 }
 

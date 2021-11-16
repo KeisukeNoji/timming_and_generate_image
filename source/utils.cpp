@@ -353,7 +353,6 @@ void GenerateNoiseImage::setImage(){
 
     for (std::int32_t i = 0; i < image.rows; ++i) {
         for (std::int32_t j = 0; j < image.cols; ++j) {
-//            image.at<uchar>(i, j) = 255;
             image.at<uchar>(i, j) = getRandom();
         }
     }
